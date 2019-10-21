@@ -13,7 +13,7 @@ public class Tic_Tac_Toe extends javax.swing.JFrame implements Runnable{
    
      public Tic_Tac_Toe() {
         initComponents();
-        setVisible(true);
+        setVisible(false);
     }
 
    
@@ -528,7 +528,7 @@ check();
         setVisible(false);
         JButton arr[]={jButton1,jButton2,jButton3,jButton4,jButton5,jButton6,jButton7,jButton8,jButton9,jButton10};
         
-        for(int i=1;i<=10,i++){
+        for(int i=1;i<=10;i++){
             arr[i].setText("");
             arr[i].setBackground(Color.WHITE);
         }
